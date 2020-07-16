@@ -11,6 +11,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
         input = input.toLowerCase();
-        System.out.println(input.replaceAll("\\b(бяка)\\b", " - вырезано цензурой!"))
+        System.out.println(input.replaceAll("\\b(бяка)\\b", " - вырезано цензурой!"));
     }
 }
